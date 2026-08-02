@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us | Skem Mobile Mechanics | 07586 628677</title>
+<meta name="description" content="Contact Skem Mobile Mechanics — call 07586 628677 or WhatsApp for a free, no-obligation quote. Mobile mechanic in Skelmersdale, Up Holland, Ormskirk. Mon-Fri 7am-7pm, Sat 8am-4pm. No call-out fee. Emergency call-outs available.">
+<meta name="keywords" content="contact mobile mechanic skelmersdale, phone mobile mechanic WN8, whatsapp mechanic skelmersdale, emergency mechanic skelmersdale, call out mechanic up holland">
+<meta name="robots" content="index, follow">
+<meta name="geo.region" content="GB-LAN">
+<meta name="geo.placename" content="Skelmersdale">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--red:#E30613;--red-dark:#b8050f;--black:#0D0D0F;--surface:#1C1C1E;--surface2:#2a2a2c;--grey:#707070;--white:#FFFFFF;--border:#2a2a2c;--radius:8px}
+html{scroll-behavior:smooth}
+body{font-family:'Chakra Petch',sans-serif;background:var(--black);color:var(--white);line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:var(--red);text-decoration:none;transition:opacity .2s}
+a:hover{opacity:.85}
+
+.nav{position:sticky;top:0;z-index:100;background:rgba(13,13,15,.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);padding:0 20px}
+.nav-inner{max-width:1100px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;height:64px}
+.nav-logo{display:flex;align-items:center;gap:10px;font-weight:700;font-size:1.2rem;color:var(--white);letter-spacing:2px;text-decoration:none}
+.nav-logo span{color:var(--red)}
+.nav-links{display:none;gap:24px;list-style:none}
+.nav-links a{color:var(--grey);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:1.5px;transition:color .2s;text-decoration:none}
+.nav-links a:hover,.nav-links a.active{color:var(--red)}
+.nav-cta{display:none;background:var(--red);color:var(--white);padding:10px 20px;border-radius:var(--radius);font-weight:700;font-size:.85rem;letter-spacing:.5px;text-decoration:none}
+.nav-cta:hover{background:var(--red-dark);opacity:1}
+.nav-mobile-btn{display:flex;flex-direction:column;gap:5px;cursor:pointer;padding:8px}
+.nav-mobile-btn span{width:24px;height:2px;background:var(--red);border-radius:2px}
+@media(min-width:768px){.nav-links{display:flex}.nav-cta{display:inline-block}.nav-mobile-btn{display:none}}
+
+.mobile-menu{display:none;position:fixed;top:64px;left:0;right:0;bottom:0;background:var(--black);z-index:99;padding:32px 20px;flex-direction:column;gap:16px}
+.mobile-menu.open{display:flex}
+.mobile-menu a{color:var(--white);font-size:1.1rem;font-weight:600;padding:14px 0;border-bottom:1px solid var(--border);text-decoration:none}
+.mobile-menu a:last-child{color:var(--red)}
+
+.hero{position:relative;padding:80px 20px 60px;text-align:center;overflow:hidden;background:radial-gradient(ellipse at 50% 0%,#1a0a0a 0%,var(--black) 70%)}
+.hero::before{content:'';position:absolute;top:0;left:0;right:0;bottom:0;background:url("data:image/svg+xml,%3Csvg width='60' height='60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 0L60 30L30 60L0 30Z' fill='none' stroke='%231C1C1E' stroke-width='.5'/%3E%3C/svg%3E") repeat;opacity:.4}
+.hero-content{position:relative;z-index:1;max-width:700px;margin:0 auto}
+.hero h1{font-size:clamp(2rem,5vw,3.2rem);font-weight:800;line-height:1.15;margin-bottom:16px;letter-spacing:-0.5px}
+.hero h1 em{font-style:normal;color:var(--red)}
+.hero-sub{color:var(--grey);font-size:clamp(1rem,2.5vw,1.15rem);max-width:560px;margin:0 auto;line-height:1.7}
+
+.section{padding:64px 20px;max-width:1100px;margin:0 auto}
+.section-title{font-size:clamp(1.5rem,3.5vw,2.2rem);font-weight:700;margin-bottom:8px}
+.section-title em{font-style:normal;color:var(--red)}
+.section-sub{color:var(--grey);margin-bottom:36px;font-size:.95rem;max-width:600px;line-height:1.7}
+.section-dark{background:var(--surface)}
+
+/* Big phone CTA */
+.phone-cta{text-align:center;margin-bottom:48px}
+.phone-cta a{display:inline-flex;align-items:center;gap:12px;background:var(--red);color:var(--white);padding:24px 48px;border-radius:var(--radius);font-weight:800;font-size:clamp(1.3rem,3vw,1.8rem);letter-spacing:.5px;transition:transform .1s,box-shadow .2s;box-shadow:0 0 40px rgba(227,6,19,.2);text-decoration:none}
+.phone-cta a:hover{transform:translateY(-2px);box-shadow:0 0 50px rgba(227,6,19,.3);opacity:1}
+.phone-cta p{color:var(--grey);font-size:.9rem;margin-top:12px}
+
+/* WhatsApp */
+.wa-section{text-align:center;margin-bottom:48px}
+.wa-btn{display:inline-flex;align-items:center;gap:10px;background:#25D366;color:#fff;padding:18px 36px;border-radius:var(--radius);font-weight:700;font-size:1.1rem;transition:transform .1s;text-decoration:none}
+.wa-btn:hover{transform:translateY(-1px);opacity:1}
+.wa-section p{color:var(--grey);font-size:.9rem;margin-top:12px}
+
+/* Contact methods */
+.contact-grid{display:grid;grid-template-columns:1fr;gap:16px;max-width:700px;margin:0 auto}
+@media(min-width:480px){.contact-grid{grid-template-columns:1fr 1fr}}
+.contact-card{background:var(--surface2);border:1px solid var(--border);border-radius:var(--radius);padding:24px 20px;transition:border-color .2s}
+.contact-card:hover{border-color:var(--red)}
+.contact-card h3{font-size:.95rem;font-weight:700;margin-bottom:8px;color:var(--white)}
+.contact-card p{font-size:.85rem;color:var(--grey);line-height:1.6}
+
+/* Hours */
+.hours-block{background:var(--surface2);border:1px solid var(--border);border-radius:var(--radius);padding:32px 28px;max-width:420px;margin:0 auto;text-align:center}
+.hours-block h3{font-size:1.1rem;font-weight:700;margin-bottom:16px;color:var(--white)}
+.hours-row{display:flex;justify-content:space-between;padding:10px 0;border-bottom:1px solid var(--border);font-size:.9rem}
+.hours-row:last-child{border-bottom:none}
+.hours-row .day{color:var(--grey)}
+.hours-row .time{color:var(--white);font-weight:600}
+.hours-note{margin-top:16px;font-size:.8rem;color:var(--grey);font-style:italic}
+
+/* FAQ */
+.faq-list{max-width:750px;margin:0 auto}
+.faq-item{background:var(--surface2);border:1px solid var(--border);border-radius:var(--radius);margin-bottom:12px;overflow:hidden;transition:border-color .2s}
+.faq-item:hover{border-color:var(--red)}
+.faq-q{padding:20px 24px;font-weight:700;font-size:.95rem;color:var(--white);cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.faq-q::after{content:'+';font-size:1.3rem;color:var(--red);font-weight:700;flex-shrink:0;transition:transform .2s}
+.faq-item.open .faq-q::after{transform:rotate(45deg)}
+.faq-a{padding:0 24px 20px;font-size:.9rem;color:var(--grey);line-height:1.7;display:none}
+.faq-item.open .faq-a{display:block}
+
+.cta-banner{background:linear-gradient(135deg,#1a0808 0%,var(--black) 100%);border:1px solid var(--red-dark);border-radius:16px;padding:48px 28px;text-align:center;margin:64px auto;max-width:700px}
+.cta-banner h2{font-size:clamp(1.3rem,3vw,1.8rem);font-weight:700;margin-bottom:12px}
+.cta-banner p{color:var(--grey);margin-bottom:24px;font-size:.95rem}
+.btn-primary{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--red);color:var(--white);padding:18px 32px;border-radius:var(--radius);font-weight:700;font-size:1.1rem;letter-spacing:.5px;transition:transform .1s,background .2s;text-decoration:none}
+.btn-primary:hover{transform:translateY(-1px);background:var(--red-dark);opacity:1}
+
+.footer{background:var(--surface);border-top:1px solid var(--border);padding:40px 20px;padding-bottom:100px}
+.footer-inner{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:1fr;gap:32px;text-align:center}
+@media(min-width:640px){.footer-inner{grid-template-columns:1fr 1fr 1fr;text-align:left}}
+.footer h4{font-size:.85rem;font-weight:700;color:var(--red);margin-bottom:12px;text-transform:uppercase;letter-spacing:1.5px}
+.footer p,.footer a{font-size:.85rem;color:var(--grey);line-height:2}
+.footer-brand{font-size:1.1rem;font-weight:800;color:var(--white);letter-spacing:2px;margin-bottom:8px}
+.footer-brand span{color:var(--red)}
+.footer-bottom{max-width:1100px;margin:0 auto;padding-top:24px;margin-top:24px;border-top:1px solid var(--border);text-align:center;font-size:.72rem;color:var(--grey)}
+.footer-tagline{color:var(--red);font-weight:700;font-size:.8rem;font-style:italic;margin-top:4px}
+
+.sticky-bar{position:fixed;bottom:0;left:0;right:0;background:var(--red);padding:14px 20px;z-index:1000;display:flex;align-items:center;justify-content:center;gap:12px;box-shadow:0 -4px 20px rgba(227,6,19,.3)}
+.sticky-bar a{color:var(--white);font-weight:700;font-size:1.15rem;letter-spacing:.3px;text-decoration:none}
+.sticky-bar small{color:rgba(255,255,255,.7);font-size:.75rem;font-weight:500}
+@media(min-width:768px){.sticky-bar{display:none}.footer{padding-bottom:40px}}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+<div class="nav-inner">
+<a href="/" class="nav-logo">SKEM <span>MOBILE</span></a>
+<ul class="nav-links">
+<li><a href="/">Home</a></li>
+<li><a href="/services.html">Services</a></li>
+<li><a href="/about.html">About</a></li>
+<li><a href="/areas.html">Areas</a></li>
+<li><a href="/contact.html" class="active">Contact</a></li>
+</ul>
+<a href="tel:07586628677" class="nav-cta">07586 628677</a>
+<div class="nav-mobile-btn" onclick="document.querySelector('.mobile-menu').classList.toggle('open')">
+<span></span><span></span><span></span>
+</div>
+</div>
+</nav>
+
+<div class="mobile-menu">
+<a href="/">Home</a>
+<a href="/services.html">Services</a>
+<a href="/about.html">About</a>
+<a href="/areas.html">Areas</a>
+<a href="/contact.html">Contact</a>
+<a href="tel:07586628677">Call 07586 628677</a>
+</div>
+
+<!-- Hero -->
+<section class="hero">
+<div class="hero-content">
+<h1>Get in <em>touch</em></h1>
+<p class="hero-sub">Ring us, WhatsApp us, or check our FAQs below. Free quotes, no obligation, no faff.</p>
+</div>
+</section>
+
+<!-- Contact -->
+<section class="section">
+
+<!-- Big Phone CTA -->
+<div class="phone-cta">
+<a href="tel:07586628677">&#9742; 07586 628677</a>
+<p>Tap to call — free, no-obligation quotes</p>
+</div>
+
+<!-- WhatsApp -->
+<div class="wa-section">
+<a href="https://wa.me/447586628677?text=Hiya%2C%20I%20need%20a%20mobile%20mechanic" class="wa-btn">
+<svg viewBox="0 0 24 24" width="22" height="22" fill="#fff" stroke="none"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+WhatsApp Us
+</a>
+<p>Send photos of the problem — we'll get back to you quickly</p>
+</div>
+
+<!-- When to use what -->
+<h2 class="section-title" style="margin-top:48px">Best way to <em>reach us</em></h2>
+<p class="section-sub">Depends what you need.</p>
+
+<div class="contact-grid">
+<div class="contact-card">
+<h3>&#9742; Call us when...</h3>
+<p>It's urgent, you need a same-day response, or you'd rather just have a chat about what's wrong. We'll talk you through it and give you a price on the phone.</p>
+</div>
+<div class="contact-card">
+<h3>&#128172; WhatsApp us when...</h3>
+<p>It's not mega urgent, you want to send us photos of the problem, or you're at work and can't call. We'll get back to you within the hour, usually much faster.</p>
+</div>
+<div class="contact-card">
+<h3>&#128231; Email us when...</h3>
+<p>You want a written quote for insurance or records. <a href="mailto:info@skemmotors.co.uk">info@skemmotors.co.uk</a> — we'll reply same day.</p>
+</div>
+<div class="contact-card">
+<h3>&#127760; Find us online</h3>
+<p><a href="https://www.skemmotors.co.uk">www.skemmotors.co.uk</a><br>Facebook: Skem Mobile Mechanics<br>Instagram: @skemmobile</p>
+</div>
+</div>
+</section>
+
+<!-- Opening Hours -->
+<div class="section-dark">
+<section class="section">
+<h2 class="section-title" style="text-align:center">Opening <em>hours</em></h2>
+<p class="section-sub" style="text-align:center;margin-left:auto;margin-right:auto">When you can reach us and book appointments.</p>
+
+<div class="hours-block">
+<h3>Availability</h3>
+<div class="hours-row"><span class="day">Monday</span><span class="time">7:00am – 7:00pm</span></div>
+<div class="hours-row"><span class="day">Tuesday</span><span class="time">7:00am – 7:00pm</span></div>
+<div class="hours-row"><span class="day">Wednesday</span><span class="time">7:00am – 7:00pm</span></div>
+<div class="hours-row"><span class="day">Thursday</span><span class="time">7:00am – 7:00pm</span></div>
+<div class="hours-row"><span class="day">Friday</span><span class="time">7:00am – 7:00pm</span></div>
+<div class="hours-row"><span class="day">Saturday</span><span class="time">8:00am – 4:00pm</span></div>
+<div class="hours-row"><span class="day">Sunday</span><span class="time">Closed</span></div>
+<p class="hours-note">Emergency breakdowns outside these hours — give us a ring and we'll do our best.</p>
+</div>
+</section>
+</div>
+
+<!-- FAQ -->
+<section class="section">
+<h2 class="section-title" style="text-align:center">Common <em>questions</em></h2>
+<p class="section-sub" style="text-align:center;margin-left:auto;margin-right:auto">Stuff people always ask us.</p>
+
+<div class="faq-list">
+<div class="faq-item open">
+<div class="faq-q" onclick="this.parentElement.classList.toggle('open')">Do you charge a call-out fee?</div>
+<div class="faq-a">No. Never have, never will. You only pay for the work we do and the parts we use. If we quote you and you decide not to go ahead, you owe us nothing.</div>
+</div>
+<div class="faq-item">
+<div class="faq-q" onclick="this.parentElement.classList.toggle('open')">How quickly can you come out?</div>
+<div class="faq-a">Most jobs we can book within 24-48 hours. For urgent stuff — breakdowns, battery failures, MOT repairs needed ASAP — we can often do same day. Just ring us and we'll see what we can do.</div>
+</div>
+<div class="faq-item">
+<div class="faq-q" onclick="this.parentElement.classList.toggle('open')">What areas do you cover?</div>
+<div class="faq-a">Skelmersdale, Up Holland, Ormskirk, Rainford, Burscough, Parbold, Appley Bridge, Wigan, St Helens — roughly a 15-mile radius. If you're not sure, just ask. <a href="/areas.html">See full area list &rarr;</a></div>
+</div>
+<div class="faq-item">
+<div class="faq-q" onclick="this.parentElement.classList.toggle('open')">Do you supply parts?</div>
+<div class="faq-a">Yes. We get parts at trade prices from trusted suppliers and pass the savings onto you. No retail markup. All parts meet or exceed manufacturer specifications. If you've already got your own parts, we're happy to fit those too.</div>
+</div>
+<div class="faq-item">
+<div class="faq-q" onclick="this.parentElement.classList.toggle('open')">What vehicles do you work on?</div>
+<div class="faq-a">Private cars and light commercial vans — all makes and models. Petrol, diesel, hybrid. If you've got something unusual, just ask and we'll let you know.</div>
+</div>
+<div class="faq-item">
+<div class="faq-q" onclick="this.parentElement.classList.toggle('open')">Can you do it at my workplace?</div>
+<div class="faq-a">Absolutely. As long as there's space to work safely and your employer doesn't mind, we're happy to come to your work car park. Loads of our customers do this — car gets fixed while you're at your desk.</div>
+</div>
+<div class="faq-item">
+<div class="faq-q" onclick="this.parentElement.classList.toggle('open')">Do you stamp the service book?</div>
+<div class="faq-a">Yes. Every service gets a stamp in your book so your warranty and resale value stay intact. Same quality parts, same standards — just without the garage overheads.</div>
+</div>
+<div class="faq-item">
+<div class="faq-q" onclick="this.parentElement.classList.toggle('open')">What if it rains?</div>
+<div class="faq-a">We work in all weather. Got a gazebo for the worst days. Unless it's absolutely lashing sideways and would compromise the quality of the work, we crack on regardless. We're not made of sugar.</div>
+</div>
+</div>
+</section>
+
+<!-- CTA -->
+<div class="cta-banner">
+<h2>Ready to get sorted?</h2>
+<p>Don't put it off. Ring us today and we'll give you a straight price.</p>
+<a href="tel:07586628677" class="btn-primary">&#9742; 07586 628677</a>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+<div class="footer-inner">
+<div>
+<div class="footer-brand">SKEM <span>MOBILE</span></div>
+<p>Your local mobile mechanics.<br>At home, at work, wherever.</p>
+<p class="footer-tagline">We come to you. Save time. Stay moving.</p>
+</div>
+<div>
+<h4>Quick Links</h4>
+<a href="/">Home</a><br>
+<a href="/services.html">Services</a><br>
+<a href="/about.html">About</a><br>
+<a href="/areas.html">Areas</a><br>
+<a href="/contact.html">Contact</a>
+</div>
+<div>
+<h4>Contact</h4>
+<p>&#9742; <a href="tel:07586628677">07586 628677</a></p>
+<p>&#128172; <a href="https://wa.me/447586628677">WhatsApp</a></p>
+<p>&#127760; <a href="https://www.skemmotors.co.uk">www.skemmotors.co.uk</a></p>
+<p>&#128231; <a href="mailto:info@skemmotors.co.uk">info@skemmotors.co.uk</a></p>
+<p style="margin-top:8px">Mon–Fri 7am–7pm<br>Sat 8am–4pm</p>
+</div>
+</div>
+<div class="footer-bottom">
+&copy; 2025 Skem Mobile Mechanics. All rights reserved.
+</div>
+</footer>
+
+<div class="sticky-bar">
+<a href="tel:07586628677">&#9742; 07586 628677</a>
+<small>Tap to call — no call-out fee</small>
+</div>
+
+</body>
+</html>

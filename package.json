@@ -1,0 +1,10 @@
+{
+  "name": "skem-mobile-mechanics",
+  "version": "1.0.0",
+  "description": "Skem Mobile Mechanics — static website for mobile mechanic services in Skelmersdale and surrounding areas",
+  "private": true,
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'Static site — no build step required'"
+  }
+}
