@@ -3,14 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Areas We Cover | Skem Mobile Mechanics | Skelmersdale</title>
-<meta name="description" content="Mobile mechanic covering Skelmersdale (WN8), Up Holland, Ormskirk (L39), Rainford (WA11), Burscough (L40), Parbold, Appley Bridge, Wigan, St Helens and all areas within 15 miles. We come to you. 07586 628677.">
-<meta name="keywords" content="mobile mechanic skelmersdale, mobile mechanic up holland, mobile mechanic ormskirk, mobile mechanic rainford, mobile mechanic burscough, mobile mechanic parbold, mobile mechanic appley bridge, mobile mechanic wigan, car repair WN8, mechanic near me skelmersdale">
+<title>Areas We Cover | Mobile Mechanic Skelmersdale & Surrounding Areas</title>
+<meta name="description" content="Mobile mechanic covering Skelmersdale, Up Holland, Ormskirk, Rainford, Burscough, Parbold, Appley Bridge, Wigan, St Helens and all areas within 15 miles. Brakes, servicing, diagnostics, clutches, MOT repairs at your door. No call-out fee. 07586 628677.">
+<meta name="keywords" content="mobile mechanic skelmersdale, mobile mechanic up holland, mobile mechanic ormskirk, mobile mechanic rainford, mobile mechanic burscough, mobile mechanic parbold, mobile mechanic appley bridge, mobile mechanic wigan, car repair WN8, mechanic near me skelmersdale, brakes skelmersdale, car service ormskirk, diagnostics up holland, clutch replacement WN8">
 <meta name="robots" content="index, follow">
 <meta name="geo.region" content="GB-LAN">
 <meta name="geo.placename" content="Skelmersdale">
 <meta property="og:title" content="Areas We Cover | Skem Mobile Mechanics">
-<meta property="og:description" content="Mobile mechanic covering Skelmersdale, Up Holland, Ormskirk, Rainford, Burscough and surrounding areas. 07586 628677.">
+<meta property="og:description" content="Mobile mechanic covering Skelmersdale, Up Holland, Ormskirk, Rainford, Burscough and surrounding areas. Brakes, servicing, diagnostics, clutches — all at your door. 07586 628677.">
 <meta property="og:type" content="website">
 <meta property="og:image" content="/img/og-image.png">
 <meta property="og:image:width" content="1200">
@@ -21,7 +21,6 @@
 <meta name="twitter:image" content="/img/og-image.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<!-- Favicon -->
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
@@ -29,6 +28,7 @@
 <link rel="manifest" href="/site.webmanifest">
 <meta name="theme-color" content="#E30613">
 <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{--red:#E30613;--red-dark:#b8050f;--black:#0D0D0F;--surface:#1C1C1E;--surface2:#2a2a2c;--grey:#C8C8C8;--white:#FFFFFF;--border:#2a2a2c;--radius:8px}
@@ -55,6 +55,7 @@ a:hover{opacity:.85}
 .mobile-menu a{color:var(--white);font-size:1.1rem;font-weight:600;padding:14px 0;border-bottom:1px solid var(--border);text-decoration:none}
 .mobile-menu a:last-child{color:var(--red)}
 
+
 .hero{position:relative;padding:80px 20px 60px;text-align:center;overflow:hidden;background:radial-gradient(ellipse at 50% 0%,#1a0a0a 0%,var(--black) 70%)}
 .hero::before{content:'';position:absolute;top:0;left:0;right:0;bottom:0;background:url("data:image/svg+xml,%3Csvg width='60' height='60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 0L60 30L30 60L0 30Z' fill='none' stroke='%231C1C1E' stroke-width='.5'/%3E%3C/svg%3E") repeat;opacity:.4}
 .hero-content{position:relative;z-index:1;max-width:700px;margin:0 auto}
@@ -68,14 +69,14 @@ a:hover{opacity:.85}
 .section-sub{color:var(--grey);margin-bottom:36px;font-size:.95rem;max-width:600px;line-height:1.7}
 .section-dark{background:var(--surface)}
 
-.area-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-@media(min-width:640px){.area-grid{grid-template-columns:repeat(3,1fr)}}
-@media(min-width:768px){.area-grid{grid-template-columns:repeat(4,1fr)}}
-.area-card{background:var(--surface2);border:1px solid var(--border);border-radius:var(--radius);padding:20px 16px;text-align:center;transition:border-color .2s,transform .2s}
-.area-card:hover{border-color:var(--red);transform:translateY(-2px)}
-.area-card h3{font-size:.9rem;font-weight:700;color:var(--white);margin-bottom:4px}
-.area-card p{font-size:.75rem;color:var(--grey)}
-.area-card.primary{border-color:var(--red);background:rgba(227,6,19,.05)}
+
+.area-block{background:var(--surface2);border:1px solid var(--border);border-radius:var(--radius);padding:28px 24px;margin-bottom:20px;transition:border-color .2s}
+.area-block:hover{border-color:var(--red)}
+.area-block h3{font-size:1.15rem;font-weight:700;color:var(--white);margin-bottom:10px;display:flex;align-items:center;gap:10px}
+.area-block h3::before{content:'';width:4px;height:24px;background:var(--red);border-radius:2px;flex-shrink:0}
+.area-block p{font-size:.9rem;color:var(--grey);line-height:1.7}
+.area-block.primary{border-color:var(--red);background:rgba(227,6,19,.05)}
+.area-postcode{display:inline-block;background:rgba(227,6,19,.1);color:var(--red);font-size:.72rem;font-weight:700;padding:2px 8px;border-radius:12px;margin-left:8px;letter-spacing:.5px}
 
 .coverage-note{background:var(--surface2);border:1px solid var(--border);border-radius:var(--radius);padding:28px 24px;margin-top:40px;text-align:center}
 .coverage-note p{font-size:.9rem;color:var(--grey);line-height:1.7}
@@ -86,6 +87,7 @@ a:hover{opacity:.85}
 .cta-banner p{color:var(--grey);margin-bottom:24px;font-size:.95rem}
 .btn-primary{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--red);color:var(--white);padding:18px 32px;border-radius:var(--radius);font-weight:700;font-size:1.1rem;letter-spacing:.5px;transition:transform .1s,background .2s;text-decoration:none}
 .btn-primary:hover{transform:translateY(-1px);background:var(--red-dark);opacity:1}
+
 
 .footer{background:var(--surface);border-top:1px solid var(--border);padding:40px 20px;padding-bottom:100px}
 .footer-inner{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:1fr;gap:32px;text-align:center}
@@ -105,6 +107,8 @@ a:hover{opacity:.85}
 </head>
 <body>
 
+
+<!-- Navigation -->
 <nav class="nav">
 <div class="nav-inner">
 <a href="/" class="nav-logo">SKEM <span>MOBILE</span></a>
@@ -131,118 +135,143 @@ a:hover{opacity:.85}
 <a href="tel:07586628677">Call 07586 628677</a>
 </div>
 
+
 <!-- Hero -->
 <section class="hero">
 <div class="hero-content">
-<h1>Where we <em>cover</em></h1>
-<p class="hero-sub">Skelmersdale and everywhere within spitting distance. If you're not sure, just ask — chances are we'll come to you.</p>
+<h1>Mobile mechanic <em>near you</em></h1>
+<p class="hero-sub">Based in Skelmersdale, covering a 15-mile radius. All services available at every location — brakes, servicing, diagnostics, clutches, MOT failure repairs and more. Done at your door, no call-out fee locally.</p>
 </div>
 </section>
 
-<!-- Areas -->
+<!-- Main Areas -->
 <section class="section">
-<h2 class="section-title">Our <em>patch</em></h2>
-<p class="section-sub">Based in Skem, covering roughly a 15-mile radius. These are the main areas we work in day to day:</p>
+<h2 class="section-title">Areas we <em>cover</em></h2>
+<p class="section-sub">We're not some national franchise parachuting in. We live here, work here, and know the area inside out. Here's where we work day to day:</p>
 
-<div class="area-grid">
-<div class="area-card primary">
-<h3>Skelmersdale</h3>
-<p>Home turf — WN8</p>
+
+<div class="area-block primary">
+<h3>Skelmersdale <span class="area-postcode">WN8</span></h3>
+<p>Our home turf. Mobile mechanic services across all of Skelmersdale including Digmoor, Tanhouse, Birch Green, Ashurst, Old Skem, Pennylands, Whalleys, and Holland Moor. Brakes, full servicing, diagnostics, clutch replacements, suspension repairs, batteries, MOT failure repairs and welding — all done on your drive. No call-out fee anywhere in Skem. We know the potholes on Grimshaw Road that smash springs and the speed bumps on Birch Green that kill drop links. We stock the parts because we see the same jobs week in, week out.</p>
 </div>
-<div class="area-card primary">
-<h3>Up Holland</h3>
-<p>WN8 — 2 mins away</p>
+
+<div class="area-block primary">
+<h3>Up Holland <span class="area-postcode">WN8</span></h3>
+<p>Mobile mechanic in Up Holland covering all streets, estates and the village centre. Just minutes from our base — we're here fast. Full range of services available on your driveway: brake pad and disc replacement, car servicing, fault code diagnostics, clutch fitting, suspension work, battery replacement, and MOT failure repairs. Same honest prices, same no-nonsense approach as everywhere else we cover.</p>
 </div>
-<div class="area-card">
-<h3>Ormskirk</h3>
-<p>L39 — 5 mins</p>
+
+
+<div class="area-block">
+<h3>Ormskirk <span class="area-postcode">L39</span></h3>
+<p>Mobile mechanic in Ormskirk and surrounding areas including Aughton, Westhead, and Scarisbrick. Full mobile mechanic services available — brakes, car servicing, diagnostics, clutch replacements, suspension repairs, batteries, oil changes, and MOT failure repairs. All done at your home or workplace in Ormskirk. No call-out fee, no need to drop the car anywhere. We come to you.</p>
 </div>
-<div class="area-card">
-<h3>Rainford</h3>
-<p>WA11 — 10 mins</p>
+
+<div class="area-block">
+<h3>Rainford <span class="area-postcode">WA11</span></h3>
+<p>Mobile mechanic in Rainford covering the village and surrounding areas including King's Moss and Crank. We provide the full range of car repair services at your door — brakes, servicing, diagnostics, clutch replacements, suspension work, battery fitting, and MOT failure repairs. No call-out fee for Rainford. Just ring us with what's wrong and we'll give you a straight price.</p>
 </div>
-<div class="area-card">
-<h3>Burscough</h3>
-<p>L40 — 8 mins</p>
+
+<div class="area-block">
+<h3>Burscough <span class="area-postcode">L40</span></h3>
+<p>Mobile mechanic in Burscough covering the village and surrounding rural areas. All services available on your driveway — full and interim servicing, brake repairs, fault code diagnostics, clutch replacements, suspension, batteries, welding, and MOT failure repairs. No need to drive to a garage or wait around. We bring everything we need and get it sorted while you carry on with your day.</p>
 </div>
-<div class="area-card">
-<h3>Parbold</h3>
-<p>WN6 — 10 mins</p>
+
+
+<div class="area-block">
+<h3>Parbold <span class="area-postcode">WN6</span></h3>
+<p>Mobile mechanic in Parbold and the surrounding area including Newburgh, Dalton, and Lathom. Just 10 minutes from our Skelmersdale base — no problem at all. Brakes, servicing, diagnostics, clutches, suspension, batteries, MOT failure repairs — the full works, done at your property. Same prices as everywhere else, no call-out fee.</p>
 </div>
-<div class="area-card">
-<h3>Appley Bridge</h3>
-<p>WN6 — 10 mins</p>
+
+<div class="area-block">
+<h3>Appley Bridge <span class="area-postcode">WN6</span></h3>
+<p>Mobile mechanic in Appley Bridge and the surrounding Douglas Valley area. Just off Junction 27 of the M6 — easy for us to reach. Full range of mobile mechanic services available at your door: brakes, servicing, fault code diagnostics, clutch replacements, suspension repairs, battery fitting, and MOT failure repairs. No garage trip needed.</p>
 </div>
-<div class="area-card">
-<h3>Ashurst</h3>
-<p>WN8 — 5 mins</p>
+
+<div class="area-block">
+<h3>Wigan <span class="area-postcode">WN1–WN5</span></h3>
+<p>Mobile mechanic covering Wigan and surrounding areas including Standish, Shevington, Gathurst, Wrightington, and Roby Mill. All services available — brakes, full servicing, diagnostics, clutch replacements, suspension work, batteries, welding, and MOT failure repairs done at your home or workplace. We bring proper tools and OE-spec parts. No call-out fee for most Wigan postcodes.</p>
 </div>
-<div class="area-card">
-<h3>Dalton</h3>
-<p>WN8 — 5 mins</p>
+
+
+<div class="area-block">
+<h3>St Helens <span class="area-postcode">WA9–WA11</span></h3>
+<p>Mobile mechanic covering parts of St Helens closest to Skelmersdale — Rainford, Billinge, Crank, and surrounding areas. Brakes, servicing, diagnostics, clutch replacements, suspension, batteries, and MOT failure repairs all available at your door. If you're on the Skem side of St Helens, we'll come to you. Give us a ring and we'll confirm.</p>
 </div>
-<div class="area-card">
-<h3>Newburgh</h3>
-<p>WN8 — 5 mins</p>
+
+<div class="area-block">
+<h3>Ashurst <span class="area-postcode">WN8</span></h3>
+<p>Mobile mechanic in Ashurst, just east of Skelmersdale town centre. Full range of services available — brakes, car servicing, diagnostics, clutch fitting, suspension repairs, battery replacement, and MOT failure repairs. All done on your drive. Five minutes from our base, so we can usually get to you same day or next day.</p>
 </div>
-<div class="area-card">
-<h3>Lathom</h3>
-<p>L40 — 5 mins</p>
+
+<div class="area-block">
+<h3>Dalton <span class="area-postcode">WN8</span></h3>
+<p>Mobile mechanic covering Dalton, between Skelmersdale and Up Holland near Beacon Country Park. Brakes, servicing, diagnostics, clutches, suspension, batteries — all done at your door. Same prices, same service, no call-out fee. We're round the corner.</p>
 </div>
-<div class="area-card">
-<h3>Crawford</h3>
-<p>WN8 — 3 mins</p>
+
+
+<div class="area-block">
+<h3>Newburgh <span class="area-postcode">WN8</span></h3>
+<p>Mobile mechanic in Newburgh, just north of Parbold. Covering the village and surrounding rural area. Full mobile mechanic services — brakes, servicing, diagnostics, clutches, suspension, batteries, and MOT failure repairs. Affordable, honest, and done on your driveway. No need to trail into town.</p>
 </div>
-<div class="area-card">
-<h3>Wigan</h3>
-<p>WN1-WN5 — 15 mins</p>
+
+<div class="area-block">
+<h3>Lathom <span class="area-postcode">L40</span></h3>
+<p>Mobile mechanic in Lathom, between Skelmersdale and Ormskirk. We cover the whole area including Lathom Park. Brakes, servicing, diagnostics, clutch replacements, suspension repairs, battery fitting, MOT failure repairs — all at your door. Five minutes from base, no call-out fee.</p>
 </div>
-<div class="area-card">
-<h3>St Helens</h3>
-<p>WA9-WA11 — 15 mins</p>
+
+<div class="area-block">
+<h3>Crawford <span class="area-postcode">WN8</span></h3>
+<p>Mobile mechanic in Crawford village, between Up Holland and Skelmersdale. We're just three minutes away. Full services available — brakes, car servicing, diagnostics, clutch fitting, suspension, batteries, and MOT failure repairs. All done at your property, all at honest prices.</p>
 </div>
-<div class="area-card">
-<h3>Standish</h3>
-<p>WN6 — 12 mins</p>
+
+
+<div class="area-block">
+<h3>Standish <span class="area-postcode">WN6</span></h3>
+<p>Mobile mechanic in Standish, north of Wigan. Covering the village and surrounding area. Brakes, servicing, diagnostics, clutch replacements, suspension work, battery fitting, and MOT failure repairs — all done at your home or workplace. We bring everything we need. No garage waiting rooms, no lifts needed.</p>
 </div>
-<div class="area-card">
-<h3>Wrightington</h3>
-<p>WN6 — 8 mins</p>
+
+<div class="area-block">
+<h3>Wrightington <span class="area-postcode">WN6</span></h3>
+<p>Mobile mechanic covering Wrightington parish and the surrounding countryside. Full range of services available on your driveway — brakes, servicing, diagnostics, clutches, suspension, batteries, and MOT failure repairs. Rural location? No problem. We come to you wherever you are.</p>
 </div>
+
+<div class="area-block">
+<h3>Billinge <span class="area-postcode">WN5</span></h3>
+<p>Mobile mechanic in Billinge, just south of Skelmersdale towards St Helens. Full mobile mechanic services at your door — brakes, servicing, diagnostics, clutch replacements, suspension repairs, battery fitting, and MOT failure repairs. Honest prices, no hidden fees. Ring us for a quote.</p>
 </div>
 
 <div class="coverage-note">
-<p><strong>Not on the list?</strong> Don't worry — if you're within roughly 15 miles of Skelmersdale, we'll probably come to you. Just give us a ring or WhatsApp and ask. Worst case we'll say no, but we rarely do.</p>
+<p><strong>Not on the list?</strong> If you're within roughly 15 miles of Skelmersdale, we'll probably come to you. Give us a ring or WhatsApp and ask — we rarely say no.</p>
 </div>
 </section>
 
-<!-- Local knowledge -->
+
+<!-- Local Knowledge -->
 <div class="section-dark">
 <section class="section">
 <h2 class="section-title">Local <em>knowledge</em></h2>
-<p class="section-sub">We're not some national franchise parachuting in. We live here, we work here, we know the area.</p>
+<p class="section-sub">We're not some call centre sending a random bloke with a spanner. We live here, work here, and know the area.</p>
 
-<div class="area-grid" style="grid-template-columns:1fr;max-width:700px;gap:16px">
-<div class="area-card" style="text-align:left;padding:24px">
+<div class="area-block" style="max-width:700px">
 <h3>We know the roads</h3>
-<p style="font-size:.88rem;line-height:1.6">The potholes on Grimshaw Road that smash springs. The speed bumps on Birch Green that kill drop links. The rat runs that chew through brake pads. We see the same jobs from the same areas — and we stock the parts accordingly.</p>
+<p>The potholes on Grimshaw Road that smash springs. The speed bumps on Birch Green that kill drop links. The rat runs that chew through brake pads. We see the same jobs from the same areas — and we stock the parts accordingly.</p>
 </div>
-<div class="area-card" style="text-align:left;padding:24px">
+<div class="area-block" style="max-width:700px">
 <h3>We know the people</h3>
-<p style="font-size:.88rem;line-height:1.6">Most of our work comes through word of mouth. Someone's mate tells their mate, who tells their nan. That's how we like it. Real recommendations from real people round here.</p>
+<p>Most of our work comes through word of mouth. Someone's mate tells their mate, who tells their nan. That's how we like it. Real recommendations from real people round here.</p>
 </div>
-<div class="area-card" style="text-align:left;padding:24px">
+<div class="area-block" style="max-width:700px">
 <h3>We know what garages charge</h3>
-<p style="font-size:.88rem;line-height:1.6">We know what the local garages are quoting for the same work. And we know we can do it for less, at your door, without the wait. If you've got a quote from somewhere else — ring us and we'll see if we can beat it.</p>
-</div>
+<p>We know what the local garages are quoting for the same work. And we know we can do it for less, at your door, without the wait. If you've got a quote from somewhere else — ring us and we'll see if we can beat it.</p>
 </div>
 </section>
 </div>
 
+
 <!-- CTA -->
 <div class="cta-banner">
-<h2>In our area?</h2>
-<p>Give us a ring. If we can get to you, we will.</p>
+<h2>In our area? Give us a ring.</h2>
+<p>Tell us what's up, where you are, and we'll give you a straight price. No messing about.</p>
 <a href="tel:07586628677" class="btn-primary">&#9742; 07586 628677</a>
 </div>
 
@@ -278,7 +307,7 @@ a:hover{opacity:.85}
 
 <div class="sticky-bar">
 <a href="tel:07586628677">&#9742; 07586 628677</a>
-<small>Tap to call — no call-out fee</small>
+<small>Tap to call</small>
 </div>
 
 </body>
